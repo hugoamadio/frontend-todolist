@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 interface ButtonStyledProps{
-    bgColor: string;
-    width: string;
-    hoverColor: string;
+    bgColor?: string;
+    width?: string;
+    hoverColor?: string;
 }
 
 const ButtonStyled = styled.button<ButtonStyledProps>`
