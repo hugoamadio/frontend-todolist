@@ -23,3 +23,17 @@ body{
   padding: 25px;
   overflow: auto;
 }
+
+.responsive-div{
+  width: 520px;
+}
+
+@media(max-width: 570px){
+  .form-primary{
+    width: 90vw;
+  }
+
+  .responsive-div{
+    width: 100%;
+  }
+}

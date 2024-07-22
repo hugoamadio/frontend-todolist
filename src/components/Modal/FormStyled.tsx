@@ -13,6 +13,10 @@ const FormStyled = styled.form`
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+
+    @media(max-width: 570px){
+        width: 90%;
+    }
 `
 
 export default FormStyled

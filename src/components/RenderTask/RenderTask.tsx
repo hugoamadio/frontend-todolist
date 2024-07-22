@@ -40,7 +40,6 @@ function RenderTask({ checkAction }: RenderTaskProps) {
                     key={task.id} 
                     style={{
                         border: '1px solid black', 
-                        width: '520px', 
                         boxSizing: "border-box", 
                         padding: '12px', 
                         borderRadius: '8px', 
@@ -50,6 +49,8 @@ function RenderTask({ checkAction }: RenderTaskProps) {
                         flexDirection: "row", 
                         margin: '10px'
                     }}
+
+                    className="responsive-div"
                 >
                     <div>
                         <h3 style={{ textDecoration: task.status ? 'line-through' : 'none' }}>{task.name}</h3>
